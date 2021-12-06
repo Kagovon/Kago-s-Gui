@@ -1,1 +1,6 @@
-0.0.1Q
+local thisVersion = _G.thisVersion
+local currentVersion = "0.0.1Q"
+
+if thisVersion == currentVersion then
+print("Work")
+end

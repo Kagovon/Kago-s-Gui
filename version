@@ -3,4 +3,6 @@ local currentVersion = "0.0.1Q"
 
 if thisVersion == currentVersion then
 Lib:Notification("Kago's GUI", "You are using new version of Kago's GUI!", "Ok")
+else
+game.Players:LocalPlayer:kick("Outdated Version!")
 end
